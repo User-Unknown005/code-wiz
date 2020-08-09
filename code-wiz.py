@@ -1,4 +1,7 @@
 import random
+bannerfile=open("banner.txt","r")
+ban=bannerfile.read()
+bannerfile.close()
 def encode(word):
  encoded_word=""
  leng=0
@@ -40,6 +43,10 @@ def decode(word2):
    decoded_word=decoded_word+chr(ord(ch)+1)
  print("After Decrypting:")
  print(decoded_word)
+print(ban)
+print("Version-1.0")
+print("Script written by Shourya Deep Bera(User-Unknown005)")
+print("===================================================")
 print('Enter 1 to encode and 2 to decode')
 choi=int(input())
 if choi== 1:
