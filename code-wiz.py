@@ -47,6 +47,8 @@ print(ban)
 print("Version-1.0")
 print("Script written by Shourya Deep Bera(User-Unknown005)")
 print("===================================================")
+print("Pleae type everything in CAPITAL LETTERS")
+print("No numbers are allowed")
 print('Enter 1 to encode and 2 to decode')
 choi=int(input())
 if choi== 1:
