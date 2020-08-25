@@ -12,3 +12,7 @@ Updating the script
  bash update.sh
  cd $home[or open a new session]
 now run it again
+latest:
+Version-1.1
+What's new?
+ 1)Security increased
