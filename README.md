@@ -13,6 +13,6 @@ Updating the script
  cd $home[or open a new session]
 now run it again
 latest:
-Version-1.1
+Version-1.2
 What's new?
  1)Security increased
