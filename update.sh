@@ -4,4 +4,4 @@ echo Deleted old version of code-wiz
 echo Updating
 git clone https://github.com/User-Unknown005/code-wiz
 echo Done
-echo Please type cd $home or open a new session
+echo Please type "cd $home" or open a new session
