@@ -2,7 +2,15 @@ import random
 bannerfile=open("banner.txt","r")
 ban=bannerfile.read()
 bannerfile.close()
+def rev(srt):
+ length=len(srt)-1
+ new=""
+ while length>=0:
+  new=new+srt[length]
+  length=length-1
+ return(new)
 def encode(word):
+ word= rev(word)
  encoded_word=""
  leng=0
  for c in word:
@@ -14,7 +22,6 @@ def encode(word):
   else:
    prev=chr(ord(c)-1)
    encoded_word=encoded_word+prev
- #encoding stage 1 complete
  encoded_word=encoded_word+" "
  leng=leng+1
  p1=random.randint(0,leng)
@@ -31,6 +38,7 @@ def encode(word):
  print("After Encryption :")
  print(encoded_word)
 def decode(word2):
+ word2= rev(word2)
  decoded_word=""
  for ch in word2:
   if ch=="$":
@@ -44,10 +52,9 @@ def decode(word2):
  print("After Decrypting:")
  print(decoded_word)
 print(ban)
-print("Version-1.0")
+print("Version-1.2")
 print("Script written by Shourya Deep Bera(User-Unknown005)")
 print("===================================================")
-print("Pleae type everything in CAPITAL LETTERS")
 print("No numbers are allowed")
 print('Enter 1 to encode and 2 to decode')
 choi=int(input())
