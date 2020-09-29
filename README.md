@@ -12,7 +12,11 @@ Updating the script
  bash update.sh
  cd $home[or open a new session]
 now run it again
-latest:
 Version-1.2
 What's new?
  1)Security increased
+latest:
+Version-2.4
+what's new?
+ 1)changed banner
+ 2)minor fixes
