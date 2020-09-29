@@ -1,4 +1,6 @@
+import os
 import random
+os.system("clear")
 bannerfile=open("banner.txt","r")
 ban=bannerfile.read()
 bannerfile.close()
