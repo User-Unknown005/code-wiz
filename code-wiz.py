@@ -1,4 +1,5 @@
 import os
+from colorama import Fore, Style
 import random
 os.system("clear")
 bannerfile=open("banner.txt","r")
@@ -53,10 +54,12 @@ def decode(word2):
    decoded_word=decoded_word+chr(ord(ch)+1)
  print("After Decrypting:")
  print(decoded_word)
-print(ban)
-print("Version-1.2")
+print(Fore.GREEN + ban)
+print(Style.RESET_ALL)
+print("Version-3.6")
 print("Script written by Shourya Deep Bera(User-Unknown005)")
-print("===================================================")
+print(Fore.YELLOW +"====================================================")
+print(Style.RESET_ALL)
 print("No numbers are allowed")
 print('Enter 1 to encode and 2 to decode')
 choi=int(input())
